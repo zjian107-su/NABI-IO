@@ -14,10 +14,10 @@ This section aims to keep notes on daily improvements and detail changes.
 - 0527: Initiate the web dev.
   - Starting as "Hello World" and then improving while learning on "Gatsby Tutorial and Projects Course".
   - added two RCC(react class component) of /home_page and /intro
-- 0528:
+- 0528: Emoji, Layout, grpahQL, userStaticQuery
 
-  - Adding [emojis](https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7) into the structure. The first way, using
-    `<span role="img" aria-label="sheep">🐑</span>`. The second way is using a component, such as:
+  - Adding [emojis](https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7) into the structure. The **first** method, using
+    `<span role="img" aria-label="sheep">🐑</span>`. The **second** method is using a component, such as:
 
     ```javascript
     import React from "react";
@@ -39,3 +39,5 @@ This section aims to keep notes on daily improvements and detail changes.
   - Improving `<Layout>` by adding footer and navbar
   - Learned that style component's usage is just like graphql search. They both use backtsick.
   - StaticQuery hook from Graphiql IDE Code Exporter can help extract info by editing codes after `return`. But you can also using `import {useStaticQuery, graphql} from 'gatsby'` - creating the **first object** after fetching info using graphql, then create the **second object** passing the object to useStaticQuery(). So later you can use the second object as json format to search info.
+
+- 0529: Markdown syntax improve, logo creation

@@ -11,6 +11,7 @@ import Emoji from "../components/emoji"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <img src={"/logo.png"} alt="Logo" />
     <h1
       style={{
         fontWeight: `bold`,
@@ -21,10 +22,12 @@ const IndexPage = () => (
     </h1>
 
     <h2>训练一条听话的对世界充满爱的狗狗</h2>
-
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
-      <ExampleButton>我滴大宝贝</ExampleButton>
+      <ExampleButton>
+        I fart you
+        <Emoji symbol="❤️" label="heart" />
+      </ExampleButton>
     </div>
   </Layout>
 )
