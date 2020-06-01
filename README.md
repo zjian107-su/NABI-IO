@@ -41,3 +41,5 @@ This section aims to keep notes on daily improvements and detail changes.
   - StaticQuery hook from Graphiql IDE Code Exporter can help extract info by editing codes after `return`. But you can also using `import {useStaticQuery, graphql} from 'gatsby'` - creating the **first object** after fetching info using graphql, then create the **second object** passing the object to useStaticQuery(). So later you can use the second object as json format to search info.
 
 - 0529: Markdown syntax improve, logo creation
+- 0531: `npm install --save-dev xxxxx` for fixing dev dependencies issues
+  - gatsby image operation
