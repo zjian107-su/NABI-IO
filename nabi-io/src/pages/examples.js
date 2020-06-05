@@ -1,6 +1,4 @@
 import React from "react"
-import Header from "../examples/header"
-import HeaderStatic from "../examples/header_static"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
@@ -17,8 +15,7 @@ const examples = ({ data }) => {
   return (
     <Layout>
       <h1>hello from exmaples page</h1>
-      <Header />
-      <HeaderStatic />
+      {/* <h1>title: {data.site.siteMetadata.title}</h1> */}
       <h1>{author}</h1>
     </Layout>
   )

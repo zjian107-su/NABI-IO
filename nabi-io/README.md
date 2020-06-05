@@ -5,12 +5,22 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  欢迎来到狗狗的世界
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+
+---
+
+## 📝 Notes
+
+- useStaticQuery(Code Explorer: StaticQuery Hook), import **useStaticQuery**: the useStaticQuery() function can only fun in the functional component. But you can pass the query that is outside of the function.
+- StaticQuery(Code Explorer: StaticQuery), import **StaticQuery**: you will use `<StaticQuery>` as a component in your codes. It has TWO props, `` query={graphql`BLOCK`} `` and `render={data} => <div><dive>`
+- pageQuery(Code Explorerm: Page Query), import only graphql. It has to be in a page directory, not anywhere else. You have to pass a prop parameter. But in the console you will see a lot of props but no data, so you need to export dataQuery too.
+
+---
 
 ## 🚀 Quick start
 

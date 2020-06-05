@@ -18,7 +18,10 @@ const Navbar = () => {
           <Link to="/sleep_or_nap">Nap</Link>
         </li>
         <li>
-          <Link to="/examples">Examples</Link>
+          <Link to="/images">Images Test</Link>
+        </li>
+        <li>
+          <Link to="/blog/my-first-post">Markdown Test</Link>
         </li>
       </ul>
     </div>
