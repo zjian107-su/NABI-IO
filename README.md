@@ -8,13 +8,11 @@
 </h2>
 
 <p align="center">
-<<<<<<< HEAD
   <a href="https://github.com/zjian107-su/nabi-io/blob/master/nabi-io/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Gatsby Starter Portfolio: Cara is released under the MIT license." />
   </a>
   <a href="https://github.com/zjian107-su/nabi-io">
-    <img src="https://img.shields.io/github/stars/zjian107-su/nabi-io?logo=nabi&style=plastic" alt="star the project" />
-=======
+    <img src="https://img.shields.io/github/stars/zjian107-su/nabi-io?logo=nabi&style=plastic" alt="star the project" />  
   </a>
 </p>
 
