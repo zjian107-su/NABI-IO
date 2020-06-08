@@ -9,14 +9,14 @@
 
 <p align="center">
   <a href="https://github.com/zjian107-su/nabi-io/blob/master/nabi-io/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Gatsby Starter Portfolio: Cara is released under the MIT license." />
+    <img src="https://img.shields.io/github/license/zjian107-su/nabi-io?style=plastic" alt="Nabi.io: Nabi.io is released under the MIT license." />
   </a>
   <a href="https://github.com/zjian107-su/nabi-io">
     <img src="https://img.shields.io/github/stars/zjian107-su/nabi-io?logo=nabi&style=plastic" alt="star the project" />  
   </a>
 </p>
 
-[Read Doc for the Nabi.io instead of Daniel's Notes](./nabi-io/README.md)
+This page is used to update my changes for this project. [Read more details about Nabi.io instead of Daniel's Code Notes](./nabi-io/README.md)
 
 ## **Cpllaborator**
 
@@ -68,3 +68,24 @@ This section aims to keep notes on daily improvements and detail changes.
 - 0606 -> 0607
   - MDX = JSX + Markdown. JSX is not the best for content, Markdown is not the best for operatins. So MDX with theme, might be the better option
   - Changed all npms to yarn. Yarn vs NPM5. Very smiliar compare to "yarn vs npm3". But yarn is lightly faster and I prefer how clean yarn is. [Getting Started with Gatsby Themes and MDX](https://www.gatsbyjs.org/blog/2019-02-26-getting-started-with-gatsby-themes/)
+- 0608
+  - to see pages that are created by plugin or codes
+    ```
+    {
+      allSitePage {
+        edges {
+          node {
+            path
+            component
+            pluginCreator {
+              name
+              pluginFilepath
+            }
+          }
+        }
+      }
+    }
+    ```
+  - [x] Create Article pages with Gatsby-node.js and markdown file. Test pass. Commented codes using plugin-remark
+  - [x] Style some pages with CSS-in-JS(Emotion Core)
+  - [ ] Implement themes within home page

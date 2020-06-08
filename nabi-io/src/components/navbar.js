@@ -20,8 +20,11 @@ const Navbar = () => {
         <li>
           <Link to="/images">Images Test</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/blog/my-first-post">Markdown Test</Link>
+        </li> */}
+        <li>
+          <Link to="/articles">Articles</Link>
         </li>
       </ul>
     </div>
