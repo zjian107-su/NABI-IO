@@ -1,13 +1,30 @@
-# **NABI.IO**
+<p align="center">
+  <a href="https://nabi.io/">
+    <img width="200" height="100" src="https://user-images.githubusercontent.com/35544956/83921374-35c9eb80-a74c-11ea-9964-077fdad5827d.png">
+  </a>
+</p>
+<h2 align="center">
+  狗狗的世界: Raise Your First Beautiful and Obdient Puppy 
+</h2>
 
-A Gatsby website that helps people to raise a lovely first pup. #PersonalProject2020
+<p align="center">
+  <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Gatsby Starter Portfolio: Cara is released under the MIT license." />
+  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+  <a href="https://twitter.com/intent/follow?screen_name=lekoarts_de">
+    <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@lekoarts_de" alt="Follow @lekoarts_de" />
+  </a>
+</p>
 
-## **COllaborator**
+[Read Doc for the Nabi.io instead of Daniel's Notes](./nabi-io/README.md)
+
+## **Cpllaborator**
 
 - [Daniel Zezheng Jiang](https://github.com/zjian107-su)
 - [Guan Victor Wang](https://github.com/ArchimedesAshes)
 
-## **Change Log**
+## 📝 **Change Log**
 
 This section aims to keep notes on daily improvements and detail changes.
 
@@ -43,3 +60,12 @@ This section aims to keep notes on daily improvements and detail changes.
 - 0529: Markdown syntax improve, logo creation
 - 0531: `npm install --save-dev xxxxx` for fixing dev dependencies issues
   - gatsby image operation
+- 0601 -> 0605: learn and test gatsby -imagesharp, gatsby-image and gatsby-markdown-transformer plugins.
+  - useStaticQuery(Code Explorer: StaticQuery Hook), import **useStaticQuery**: the useStaticQuery() function can only fun in the functional component. But you can pass the query that is outside of the function.
+  - StaticQuery(Code Explorer: StaticQuery), import **StaticQuery**: you will use `<StaticQuery>` as a component in your codes. It has TWO props, `` query={graphql`BLOCK`} `` and `render={data} => <div><dive>`
+  - pageQuery(Code Explorerm: Page Query), import only graphql. It has to be in a page directory, not anywhere else. You have to pass a prop parameter. But in the console you will see a lot of props but no data, so you need to export dataQuery too.
+  - Created a photo gallery page to show Nabi's pictures
+  - Created a page that's generated with NodeAPI and a markdownfile with its Layout CSS.
+- 0606 -> 0607
+  - MDX = JSX + Markdown. JSX is not the best for content, Markdown is not the best for operatins. So MDX with theme, might be the better option
+  - Changed all npms to yarn. Yarn vs NPM5. Very smiliar compare to "yarn vs npm3". But yarn is lightly faster and I prefer how clean yarn is. [Getting Started with Gatsby Themes and MDX](https://www.gatsbyjs.org/blog/2019-02-26-getting-started-with-gatsby-themes/)
