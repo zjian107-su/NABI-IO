@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
+//This page is a playground to learn GraphQL
+
 // the commented two lines are replaced below:
 // const examples = props => {
 // console.log(props)

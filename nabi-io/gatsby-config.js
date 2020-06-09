@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `NABI.IO - 开源训狗`,
-    description: `The only stop to train a beautifully healthy and obdient dog`,
+    description: `The only stop to train a beautifully healthy and obedient dog`,
     author: `@Daniel_Jiang`,
     data: ["item1", "item2"],
     person: { name: "peter", age: 32 },

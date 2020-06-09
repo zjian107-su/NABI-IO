@@ -86,6 +86,6 @@ This section aims to keep notes on daily improvements and detail changes.
       }
     }
     ```
-  - [x] Create Article pages with Gatsby-node.js and markdown file. Test pass. Commented codes using plugin-remark
+  - [x] Create Article pages with Gatsby-node.js and markdown file. Test pass. Commented codes using plugin-remark. GraphQL to asecend posts
   - [x] Style some pages with CSS-in-JS(Emotion Core)
-  - [ ] Implement themes within home page
+  - [x] Reorganized unused files
