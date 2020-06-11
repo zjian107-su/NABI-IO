@@ -89,3 +89,10 @@ This section aims to keep notes on daily improvements and detail changes.
   - [x] Create Article pages with Gatsby-node.js and markdown file. Test pass. Commented codes using plugin-remark. GraphQL to asecend posts
   - [x] Style some pages with CSS-in-JS(Emotion Core)
   - [x] Reorganized unused files
+- 0608
+  - successfully filtered images from gallery
+  - tested Contentful headless CMS
+- 0609
+  - new post: come-when-called
+  - implemented to filter images from gallery
+  - tested Strapi CMS for personal website

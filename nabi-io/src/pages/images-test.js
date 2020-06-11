@@ -5,7 +5,7 @@ import { graphql } from "gatsby"
 export class Images extends Component {
   render() {
     const data = this.props.data
-    const images = data.fillteredImages.edges
+    const images = data.galleryImages.edges
 
     return (
       <Layout>
@@ -13,11 +13,11 @@ export class Images extends Component {
           {images.map(image => (
             <li
               style={styles.column20}
-              key={image.node.childImageSharp.resize.src}
+              key={image.node.childImageSharp.fixed.src}
             >
               <img
-                src={image.node.childImageSharp.resize.src}
-                alt={image.node.childImageSharp.resize.originalName}
+                src={image.node.childImageSharp.fixed.src}
+                alt={image.node.childImageSharp.fixed.originalName}
               />
             </li>
           ))}
@@ -52,14 +52,14 @@ styles.column20 = {
 export default Images
 
 export const pageQuery = graphql`
-  query MyQuery {
-    fillteredImages: allFile(filter: { relativeDirectory: { eq: "gallery" } }) {
+  query ImageQueryTest {
+    galleryImages: allFile(filter: { relativeDirectory: { eq: "gallery" } }) {
       edges {
         node {
           childImageSharp {
-            resize(width: 150, height: 150) {
-              originalName
+            fixed(height: 150, width: 150) {
               src
+              originalName
             }
           }
         }
