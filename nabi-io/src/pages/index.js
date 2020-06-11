@@ -1,5 +1,4 @@
 import React from "react"
-
 import { ExampleButton } from "../components/button"
 import Layout from "../components/layout"
 import Image from "../components/image"

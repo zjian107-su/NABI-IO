@@ -1,19 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import PageLinks from "../constants/links"
+import "./layout.css"
 
 const Navbar = () => {
   return (
     <div>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/articles">Articles</Link>
-        </li>
-        <li>
-          <Link to="/images">Galleries</Link>
-        </li>
+        {/* <li> test 1 </li>
+        <li> test 2 </li> */}
+        <PageLinks styleClass="nav-links"></PageLinks>
       </ul>
     </div>
   )
