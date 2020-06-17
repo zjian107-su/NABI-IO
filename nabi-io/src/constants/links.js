@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../components/layout.css"
+import "../css/layout.css"
 
 const data = [
   {

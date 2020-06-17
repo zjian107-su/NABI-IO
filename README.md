@@ -96,3 +96,6 @@ This section aims to keep notes on daily improvements and detail changes.
   - new post: come-when-called
   - implemented to filter images from gallery
   - tested Strapi CMS for personal website
+- 0617
+  - unfinsished new post: potty training and crate traning
+  - TODO: improving the home page header section and layout css. Learnin how to use rem

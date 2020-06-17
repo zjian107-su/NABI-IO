@@ -8,13 +8,24 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import Footer from "./footer"
-import "./layout.css"
+import "../css/layout.css"
 import Navbar from "./navbar"
+import Sidebar from "./sidebar"
 
 const Layout = ({ children }) => {
+  // -----------  0616
+  const [isOpen, setIsOpen] = React.useState(false)
+  // test 1
+  console.log("isOpen is " + isOpen)
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen)
+    // test 2
+    console.log("isOpen is" + isOpen)
+  }
+  // ------------ END 0616
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -28,7 +39,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbar toggleSidebar={toggleSidebar} />
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <div
         style={{
           margin: `0 auto`,
