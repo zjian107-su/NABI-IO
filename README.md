@@ -100,6 +100,7 @@ This section aims to keep notes on daily improvements and detail changes.
   - unfinsished new post: potty training and crate traning
   - TODO: improving the home page header section and layout css. Learnin how to use rem
 
+## Useful Links or Commands for Dev
 
-## Useful Links for Dev
-[Set up your Node.js development environment with WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
+- [Set up your Node.js development environment with WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
+- `$ sudo lsof -t -i tcp:8000 | xargs kill -9`
