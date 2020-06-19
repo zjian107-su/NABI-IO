@@ -18,7 +18,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const result = await graphql(`
-    query {
+    query gatsbyNodeQuery {
       allMarkdownRemark(
         sort: { order: ASC, fields: [frontmatter___date] }
         limit: 1000

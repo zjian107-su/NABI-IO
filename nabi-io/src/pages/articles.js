@@ -46,7 +46,7 @@ export default function Home({ data }) {
 }
 
 export const query = graphql`
-  query {
+  query articleQuery {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
       totalCount
       edges {

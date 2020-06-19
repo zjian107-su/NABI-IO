@@ -56,7 +56,7 @@ nabi-io/.env*
 
 # gatsby files
 nabi-io/.cache/
-nabi-io/public
+# nabi-io/public
 
 # Mac files
 .DS_Store
