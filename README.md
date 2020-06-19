@@ -99,3 +99,7 @@ This section aims to keep notes on daily improvements and detail changes.
 - 0617
   - unfinsished new post: potty training and crate traning
   - TODO: improving the home page header section and layout css. Learnin how to use rem
+
+
+## Useful Links for Dev
+[Set up your Node.js development environment with WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
