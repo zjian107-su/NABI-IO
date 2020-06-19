@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 const Footer = () => {
   return (
@@ -7,12 +6,12 @@ const Footer = () => {
       <h4 style={{ color: `#858585` }}>
         Copyright © {new Date().getFullYear()} Nabi.io | All rights reserved. |
         Developed by{" "}
-        <Link
-          to="https://www.linkedin.com/in/zezhengjiang/"
+        <a
+          href="https://www.linkedin.com/in/zezhengjiang/"
           style={{ textDecoration: "none", color: "#3c3c3c" }}
         >
           Daniel Jiang
-        </Link>
+        </a>
       </h4>
     </div>
   )
