@@ -7,6 +7,7 @@ module.exports = {
     person: { name: "peter", age: 32 },
   },
   plugins: [
+    `gatsby-plugin-offline`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
@@ -39,8 +40,5 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
