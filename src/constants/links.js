@@ -1,6 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../css/layout.css"
+import styled from "styled-components"
+
+const NoDotUnorderedList = styled.ul`
+  list-style-type: none;
+`
+const NoDotorderedList = styled.ol`
+  list-style-type: none;
+`
 
 const data = [
   {

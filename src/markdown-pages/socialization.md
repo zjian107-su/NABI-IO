@@ -1,6 +1,6 @@
 ---
-slug: "/articles/socialization"
-date: "2020-03-08"
+slug: "/articles/7-socialization"
+date: "2020-04-19"
 title: "🤼 社交篇 - Socializtaion"
 ---
 

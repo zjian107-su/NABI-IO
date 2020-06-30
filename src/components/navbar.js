@@ -6,14 +6,6 @@ import { FaAlignRight } from "react-icons/fa"
 
 const Navbar = ({ toggleSidebar }) => {
   return (
-    // <div>
-    //   <ul>
-    //     {/* <li> test 1 </li>
-    //     <li> test 2 </li> */}
-    //     <PageLinks styleClass="nav-links"></PageLinks>
-
-    //   </ul>
-    // </div>
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">

@@ -36,8 +36,8 @@ This section aims to keep notes on daily improvements and detail changes.
     `<span role="img" aria-label="sheep">🐑</span>`. The **second** method is using a component, such as:
 
     ```javascript
-    import React from "react";
-    const Emoji = (props) => (
+    import React from "react"
+    const Emoji = props => (
       <span
         className="emoji"
         role="img"
@@ -46,8 +46,8 @@ This section aims to keep notes on daily improvements and detail changes.
       >
         {props.symbol}
       </span>
-    );
-    export default Emoji;
+    )
+    export default Emoji
     ```
 
     You may use the Emoji component as `<Emoji symbol="🐑" label="sheep"/>`
@@ -83,7 +83,7 @@ This section aims to keep notes on daily improvements and detail changes.
             }
           }
         }
-      }
+      }q
     }
     ```
   - [x] Create Article pages with Gatsby-node.js and markdown file. Test pass. Commented codes using plugin-remark. GraphQL to asecend posts
@@ -99,6 +99,9 @@ This section aims to keep notes on daily improvements and detail changes.
 - 0617
   - unfinsished new post: potty training and crate traning
   - TODO: improving the home page header section and layout css. Learnin how to use rem
+- 0625 TODO
+  - [] Test CSS modules and Typography.js
+- 0629 Added first-ownership post and reorder possts in logic order
 
 ## Useful Links or Commands for Dev
 
