@@ -107,3 +107,16 @@ This section aims to keep notes on daily improvements and detail changes.
 
 - [Set up your Node.js development environment with WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
 - `$ sudo lsof -t -i tcp:8000 | xargs kill -9`
+
+## Post List
+1. Daniel's Intro - 0301
+2. First Ownership - 0308
+3. Living with Kids - 0315
+4. House Training - 0322
+5. Separation Anxiety - 0329
+6. Potty Training - 0405
+7. Sleep and Nap - 0412
+8. Come When Called - 0419
+9.  Socialization - 0426
+10. Biting - 0503
+11. Fear Period - 0510

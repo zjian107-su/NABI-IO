@@ -1,7 +1,7 @@
 ---
-slug: "/articles/5-come-when-called"
-date: "2020-04-05"
-title: "📣 召唤篇 - Call When Called"
+slug: "/articles/come-when-called"
+date: "2020-04-19"
+title: "📣 召唤篇 - Come When Called"
 ---
 
 刚接触幼犬开始，一个合格的叫兽要立马做两件事情。第一是开始在你的召唤师大峡谷开始召唤她的名字，第二是教她安静的坐下。她们像海绵一样能够很快的在这段时间内学习各种技能。

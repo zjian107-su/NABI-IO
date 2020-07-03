@@ -1,6 +1,6 @@
 ---
 slug: "/articles/3-potty-traning"
-date: "2020-03-22"
+date: "2020-04-05"
 title: " 🧻 如厕训练篇 - Potty Training "
 ---
 

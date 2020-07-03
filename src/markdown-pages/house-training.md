@@ -1,6 +1,6 @@
 ---
 slug: "/articles/3-house-training"
-date: "2020-03-15"
+date: "2020-03-22"
 title: " 🏠 笼子训练篇 - House Training "
 ---
 

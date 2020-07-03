@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import { css } from "@emotion/core"
 
 export class Images extends Component {
   render() {
@@ -8,7 +9,13 @@ export class Images extends Component {
     const images = data.fillteredImages.edges
 
     return (
-      <Layout>
+      <Layout
+        css={css`
+          background-color: pink;
+          display: inline-block;
+          border-bottom: 1px solid;
+        `}
+      >
         <ul style={{ ...styles.ul, ...styles.row }}>
           {images.map(image => (
             <li
@@ -44,7 +51,7 @@ styles.column20 = {
   flexShrink: 0,
   flexGrow: 0,
   color: `#999`,
-  width: `20%`,
+  width: `33.3%`,
   padding: `0 4px`,
   margin: 0,
 }
@@ -57,7 +64,7 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            resize(width: 150, height: 150) {
+            resize(width: 300, height: 300) {
               originalName
               src
             }

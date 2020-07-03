@@ -1,5 +1,5 @@
 ---
-slug: "/articles/4-sleep-or-nap"
+slug: "/articles/sleep-or-nap"
 date: "2020-04-12"
 title: "💤 睡觉打豆豆篇 - Sleep and Nap"
 ---

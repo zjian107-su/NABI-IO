@@ -1,7 +1,7 @@
 ---
 slug: "/articles/first-ownership"
 date: "2020-03-08"
-title: "🤗 喜迎新家庭成员篇 - First Ownership "
+title: "🤗 喜迎新家庭成员篇 - First Ownership"
 ---
 
 <!-- SOURCE: https://www.cesarsway.com/dog-care/puppy/8-must-have-puppy-products-for-you -->
@@ -61,7 +61,7 @@ title: "🤗 喜迎新家庭成员篇 - First Ownership "
 狗的毛发需要定期梳理和刷毛。 他还需要修剪脚趾甲，清洁耳朵和刷牙。为了在他回到家后为整容工作做好准备，请准备好这些整备用品并了解如何正确使用它们，能让你年内省出一套房 😏😏：
 
 - [吹风机](https://www.amazon.com/gp/product/B000FS1W4U/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - 永远不要开热气，和人相比，狗耐冷不耐热，她全身只能靠张嘴散热
-- [针刷] - 很好用的工具。上面长满了针状刷头的那种，请不要用力刷，如果遇到毛发打结，要轻柔，并且多次
+- [针刷](https://www.amazon.com/JW-Pet-Company-GripSoft-Slicker/dp/B0002AQPO8/ref=sr_1_54?dchild=1&keywords=slicker+brush&qid=1593484721&s=pet-supplies&sr=1-54) - 很好用的工具。上面长满了针状刷头的那种，请不要用力刷，如果遇到毛发打结，要轻柔，并且多次
 - [梳子](https://www.amazon.com/SGODA-Grooming-Stainless-Steel-Medium/dp/B085Q7YKNQ/ref=sr_1_46?dchild=1&keywords=Frisco%2BMetal%2BDog%2BComb&qid=1593480850&sr=8-46&th=1) - 普通常见的梳子
 - 调理喷雾 - 洗澡以后喷一下可以防止以后打结或者沾灰尘
 - [指甲钳](https://www.amazon.com/Pet-Republique-Professional-Nail-Clippers/dp/B01GBSSKVU/ref=sr_1_5?dchild=1&keywords=nail+clipper+cat&qid=1593480967&sr=8-5) - 难度级别有点高，或让兽医或美容师来，很愿意教你的。猫的剪的时候可见度好一些，断头台式的剪的时候反而看不到血管

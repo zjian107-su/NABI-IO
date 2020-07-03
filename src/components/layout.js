@@ -39,7 +39,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      {/* <Navbar /> */}
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <div
