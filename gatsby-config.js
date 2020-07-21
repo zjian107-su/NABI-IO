@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-emotion`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-styled-jsx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,6 +26,13 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `photo-gallery`,
         path: `${__dirname}/src/markdown-pages`,
       },
     },

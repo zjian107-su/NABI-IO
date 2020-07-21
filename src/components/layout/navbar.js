@@ -1,6 +1,6 @@
 import React from "react"
-import PageLinks from "../constants/links"
-import "../css/layout.css"
+import PageLinks from "../../constants/links"
+import "../../css/layout.css"
 
 import { FaAlignRight } from "react-icons/fa"
 

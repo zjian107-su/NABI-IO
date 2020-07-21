@@ -1,6 +1,6 @@
 import React from "react"
 import { ExampleButton } from "../components/button"
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Emoji from "../components/emoji"

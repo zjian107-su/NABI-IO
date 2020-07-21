@@ -1,6 +1,7 @@
 import React from "react"
-import Links from "../constants/links"
+import Links from "../../constants/links"
 import { FaTimes } from "react-icons/fa"
+
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <aside className={`sidebar ${isOpen ? "show-sidebar" : ""} `}>

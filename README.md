@@ -102,6 +102,7 @@ This section aims to keep notes on daily improvements and detail changes.
 - 0625 TODO
   - [] Test CSS modules and Typography.js
 - 0629 Added first-ownership post and reorder possts in logic order
+- 0702 Finsihed all the first set of posts
 
 ## Useful Links or Commands for Dev
 
@@ -109,6 +110,7 @@ This section aims to keep notes on daily improvements and detail changes.
 - `$ sudo lsof -t -i tcp:8000 | xargs kill -9`
 
 ## Post List
+
 1. Daniel's Intro - 0301
 2. First Ownership - 0308
 3. Living with Kids - 0315
@@ -117,6 +119,6 @@ This section aims to keep notes on daily improvements and detail changes.
 6. Potty Training - 0405
 7. Sleep and Nap - 0412
 8. Come When Called - 0419
-9.  Socialization - 0426
+9. Socialization - 0426
 10. Biting - 0503
 11. Fear Period - 0510
