@@ -4,5 +4,6 @@ import styled from "styled-components"
 export const ExampleButton = styled.button`
   background: teal;
   color: orange;
-  font-size: 1.5rem;
+  font-size: 0.95rem;
+  width: 160%;
 `
