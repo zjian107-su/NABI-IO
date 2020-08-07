@@ -1,6 +1,5 @@
 ---
-slug: "/articles/
-intro"
+slug: "/articles/intro"
 date: "2020-03-01"
 title: "🐶 欢迎来到狗狗的世界 - Daniel's Intro"
 ---

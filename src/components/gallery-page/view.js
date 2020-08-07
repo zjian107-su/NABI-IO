@@ -2,7 +2,7 @@ import React from "react"
 import Pagination from "./pagination.js"
 import { InfiniteScroll } from "./infiniteScroll.js"
 import { FaCog } from "react-icons/fa"
-import theme from "../theme.yaml"
+import theme from "../../theme.yaml"
 import Grid from "./grid.js"
 
 /** View for "home" page with infinite scroll and fallback to pagination. */

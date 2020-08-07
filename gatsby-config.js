@@ -3,8 +3,8 @@ module.exports = {
     title: `NABI.IO - 开源训狗`,
     description: `The only stop to train a beautifully healthy and obedient dog`,
     author: `@Daniel_Jiang`,
-    data: ["item1", "item2"],
-    person: { name: "peter", age: 32 },
+    // data: ["item1", "item2"],
+    // person: { name: "peter", age: 32 },
   },
   plugins: [
     `gatsby-plugin-offline`,
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `photo-gallery`,
-        path: `${__dirname}/src/markdown-pages`,
+        name: `nabi`,
+        path: `${__dirname}/src/gallery`,
       },
     },
 

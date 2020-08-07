@@ -1,7 +1,7 @@
 ---
-slug: "/articles/3-potty-traning"
+slug: "/articles/potty-training"
 date: "2020-04-05"
-title: " 🧻 如厕训练篇 - Potty Training "
+title: " 🧻 如厕训练篇 - Potty Training"
 ---
 
 <!-- 额外的网站信息：https://leerburg.com/housebrk.htm#crate -->

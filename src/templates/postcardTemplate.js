@@ -10,7 +10,7 @@ import {
   FaCompress,
   FaDownload,
 } from "react-icons/fa"
-import { GlobalStateContext } from "../components/gallery-page/galleryglobalState.js"
+import { GlobalStateContext } from "../components/gallery-page/globalState.js"
 import { CornerCaseHandler } from "../components/gallery-page/cornerCaseHandler.js"
 import { enterFullScreen, exitFullScreen } from "../util/fullScreenHelpers.js"
 

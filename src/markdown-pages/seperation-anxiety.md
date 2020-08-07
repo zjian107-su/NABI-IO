@@ -1,5 +1,5 @@
 ---
-slug: "/articles/6-separation-anxiaty"
+slug: "/articles/separation-anxiety"
 date: "2020-03-29"
 title: "🧺 分离焦虑篇 - Separation Anxiety "
 ---
