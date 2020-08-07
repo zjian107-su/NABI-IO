@@ -16,6 +16,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
+// exports.createPages = async ({ graphql, actions }) => {
+//   const { createPage } = actions
+// }
+
+// new
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -50,11 +55,6 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
-}
-
-// new
-exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
 
   return graphql(`
     {
