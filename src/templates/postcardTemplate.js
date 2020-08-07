@@ -253,7 +253,7 @@ class PostcardTemplate extends React.Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>{
-            `Photo from Gatsby Starter Photo Book` /* Note: not a good idea to put image id here (needs JS to render the correct id). */
+            `Photo of Nabi` /* Note: not a good idea to put image id here (needs JS to render the correct id). */
           }</title>
 
           <style>
@@ -359,7 +359,10 @@ class PostcardTemplate extends React.Component {
               {/* Navbutton: Top right 'x' to 'close' the image and return to gallery. */}
               <span className="x">
                 <Link
-                  to={`/#id${c.image.id}`}
+                  // to={`/#id${c.image.id}`}
+                  // Change made here so it can link to the
+                  // main gallery page. Daniel0807
+                  to={`/images`}
                   state={{ highlight: c.image.id }}
                   title="Back to Gallery"
                 >

@@ -8,7 +8,7 @@ import { exitFullScreen } from "../util/fullScreenHelpers.js"
 // Don't need his footer
 // import Footer from "../components/gallery-page/footer.js"
 
-import Layout from "../components/layout/layout"
+import Layout from "../components/layout/layout-noneCenter"
 // import Header from "../components/layout/header"
 // import Footer from "../components/layout/footer"
 // import Navbar from "../components/layout/navbar"
