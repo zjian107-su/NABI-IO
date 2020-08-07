@@ -103,6 +103,7 @@ This section aims to keep notes on daily improvements and detail changes.
   - [] Test CSS modules and Typography.js
 - 0629 Added first-ownership post and reorder possts in logic order
 - 0702 Finsihed all the first set of posts
+- 0702-0807 Finished the home page redesign, and implemented gallery page from the [Gatsby starter](https://www.gatsbyjs.org/starters/baobabKoodaa/gatsby-starter-photo-book/)
 
 ## Useful Links or Commands for Dev
 
