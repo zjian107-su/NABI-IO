@@ -211,10 +211,13 @@ exports.createPages = async ({ graphql, actions }) => {
 }
 
 function createJSON(pageData) {
-  const pathSuffix = pageData.path.substring(1)
+  // substring(8) so it will jump to the number of the currID instead
+  // of including the `/images/`
+  const pathSuffix = pageData.path.substring(8)
+
   const dir = "public/paginationJson/"
   if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir)
+    fs.mkdirSync(dir, { recursive: true })
   }
   const filePath = dir + "index" + pathSuffix + ".json"
   const dataToSave = JSON.stringify(pageData.context.pageImages)
@@ -256,6 +259,7 @@ function dummyContext() {
     thumb: {},
     title: "",
   }
+
   return {
     image: dummyImage,
     nextId: 1,

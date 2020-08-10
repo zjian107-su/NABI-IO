@@ -104,6 +104,8 @@ This section aims to keep notes on daily improvements and detail changes.
 - 0629 Added first-ownership post and reorder possts in logic order
 - 0702 Finsihed all the first set of posts
 - 0702-0807 Finished the home page redesign, and implemented gallery page from the [Gatsby starter](https://www.gatsbyjs.org/starters/baobabKoodaa/gatsby-starter-photo-book/)
+- 0808 Minor change in the home page, merge duplicated CSS codes
+- 0809 Gallery page infinite scorll and pagination fix, and many more photos added
 
 ## Useful Links or Commands for Dev
 

@@ -23,6 +23,9 @@ const data = [
 const activeStyles = {
   background: "white",
   color: "rebeccapurple",
+  padding: "0.6rem",
+  borderRadius: "5px",
+  border: "1px solid ghostwhite",
 }
 
 const tempLinks = data.map(link => {

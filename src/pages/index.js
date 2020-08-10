@@ -10,7 +10,11 @@ import Emoji from "../components/emoji"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <img src={"/logo.png"} alt="Logo" />
+    <img
+      style={{ margin: `-40px 0px -10px -20px` }}
+      src={"/logo.png"}
+      alt="Logo"
+    />
     <h1
       style={{
         fontWeight: `bold`,
@@ -31,7 +35,6 @@ const IndexPage = () => (
         凡事包容，凡事相信，凡事盼望，凡事忍耐。爱是永不止息。”
         <Emoji symbol="❤️" label="heart" />
       </ExampleButton>
-
       {/* Definition of lov: https://bit.ly/2XMpqWP */}
       {/* <ExampleButton>
         1 Corinthians 13:4-5: “Love is patient and kind; love is not envious or
@@ -42,6 +45,9 @@ const IndexPage = () => (
         <Emoji symbol="❤️" label="heart" />
       </ExampleButton> */}
     </div>
+    <h6 style={{ color: `grey` }}>
+      * 目前没有科研证明狗会感染或者传播新冠肺炎
+    </h6>
   </Layout>
 )
 
