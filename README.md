@@ -21,7 +21,6 @@ This page is used to update my changes for this project. [Read more details abou
 ## **Cpllaborator**
 
 - [Daniel Zezheng Jiang](https://github.com/zjian107-su)
-- [Guan Victor Wang](https://github.com/ArchimedesAshes)
 
 ## 📝 **Change Log**
 
@@ -98,9 +97,9 @@ This section aims to keep notes on daily improvements and detail changes.
   - tested Strapi CMS for personal website
 - 0617
   - unfinsished new post: potty training and crate traning
-  - TODO: improving the home page header section and layout css. Learnin how to use rem
-- 0625 TODO
-  - [] Test CSS modules and Typography.js
+  - improving the home page header section and layout css. Learnin how to use rem
+- 0625
+  Test CSS modules and Typography.js
 - 0629 Added first-ownership post and reorder possts in logic order
 - 0702 Finsihed all the first set of posts
 - 0702-0807 Finished the home page redesign, and implemented gallery page from the [Gatsby starter](https://www.gatsbyjs.org/starters/baobabKoodaa/gatsby-starter-photo-book/)

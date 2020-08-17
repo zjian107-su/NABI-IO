@@ -7,6 +7,7 @@ const Footer = () => {
         Copyright © {new Date().getFullYear()} Nabi.io | All rights reserved. |
         Developed by{" "}
         <a
+          target="_blank"
           href="https://www.linkedin.com/in/zezhengjiang/"
           style={{ textDecoration: "none", color: "#3c3c3c" }}
         >

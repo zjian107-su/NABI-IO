@@ -30,7 +30,7 @@ class PaginatedGalleryTemplate extends React.Component {
       <>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Gatsby Starter Photo Book</title>
+          <title>Nabi's Gallery</title>
         </Helmet>
         <Layout>
           {/* <Header siteTitle={data.site.siteMetadata.title} />
