@@ -33,7 +33,7 @@
     "gatsby-plugin-styled-jsx-postcss": "^2.0.2",
     "gatsby-plugin-typescript": "^2.0.10",
     "gatsby-source-filesystem": "^2.3.10",
-    "gatsby-transformer-remark": "^2.8.19",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.5.4",
     "gatsby-plugin-emotion": "^4.3.3",
     "graphql-tools": "^6.0.10",
