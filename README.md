@@ -83,22 +83,22 @@ This section aims to keep notes on daily improvements and detail changes.
       }q
     }
     ```
-  - [x] Created Article pages with Gatsby-node.js and markdown file. Test pass. Commented codes using plugin-remark. GraphQL to asecend posts
+  - [x] Created Article pages with Gatsby-nodeJS and markdown file. Test pass. Commented codes using plugin-remark. GraphQL to ascend posts
   - [x] Styled some pages with CSS-in-JS(Emotion Core)
   - [x] Reorganized unused files
 - 0608
   - Successfully filtered images from gallery
-  - Tested Contentful headless CMS
+  - Tested ContentfulJS headless CMS
 - 0609
   - New post: come-when-called
   - Implemented to filter images from gallery
-  - Tested Strapi CMS for personal website
+  - Tested StrapiJS CMS for personal website
 - 0617
   - Unfinished new post: potty training and crate training
   - Improved the home page header section and layout css. Learned how to use rem
 - 0625
-  - Tested CSS modules and Typography.js
-- 0629 Added first-ownership post and reorder possts in logic order
+  - Tested CSS modules and Typography
+- 0629 Added first-ownership post and reorder posts in logic order
 - 0702 Finished all the first set of posts
 - 0702-0807 Finished the home page redesign, and implemented gallery page from the [Gatsby starter](https://www.gatsbyjs.org/starters/baobabKoodaa/gatsby-starter-photo-book/)
 - 0808 Minor changes in the home page; merged duplicated CSS codes
@@ -106,7 +106,7 @@ This section aims to keep notes on daily improvements and detail changes.
 
 ## Useful Links or Commands for Dev
 
-- [Set up your Node.js development environment with WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
+- [Set up your Node development environment with WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
 - `$ sudo lsof -t -i tcp:8000 | xargs kill -9`
 
 ## Post List
